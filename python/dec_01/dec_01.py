@@ -18,7 +18,7 @@ def first():
         if dial == 0:
             result += 1
 
-    print(f"1: {result}")
+    print(f"first: {result}")
 
 def second():
     with open("input_01.txt", "r") as input:
@@ -38,7 +38,7 @@ def second():
             if dial == 0:
                 result += 1
 
-    print(f"2: {result}")
+    print(f"second: {result}")
 
 first()
 second()
